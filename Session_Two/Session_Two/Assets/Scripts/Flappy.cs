@@ -18,13 +18,16 @@ public class Flappy : MonoBehaviour
             myBody.AddForce(Vector2.up * forceToAdd); // adds force to the rigidbody
         }
 
-        if(Mathf.Abs(transform.position.y) > 5.14f){ // check if in more then 5.14 away for 0 on Y 
+        if(Mathf.Abs(transform.position.y) > 5.14f){ // check if im more then 5.14 away for 0 on Y 
 
-            Debug.Log("Dead"); // debug dead 
+            //Debug.Log("Dead"); // debug dead 
+            GM.GetComponent<GameMaster>().GameOver(); // run the game master game over code. 
         }
     }
 
+    public GameObject GM; 
     void OnCollisionEnter2D(Collision2D other) {
-        Destroy(gameObject); // kill flappy if hit by the pipes 
+        //Destroy(gameObject); // kill flappy if hit by the pipes
+        GM.GetComponent<GameMaster>().GameOver(); // run the game master game over code. 
     }
 }

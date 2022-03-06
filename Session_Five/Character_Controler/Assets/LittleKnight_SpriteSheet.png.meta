@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 9c1f1c2367a86bd4ab6e12b412d05a7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9156783719357634271
+    second: Head
+  - first:
+      213: -3471888494600387442
+    second: background arm
+  - first:
+      213: 4606351285594565438
+    second: forground arm
+  - first:
+      213: 21639342020848460
+    second: forground foot
+  - first:
+      213: -7268354067960368437
+    second: Background foot
+  - first:
+      213: 2567466624414127706
+    second: Belt
+  - first:
+      213: 3749499591326835763
+    second: forground hip
+  - first:
+      213: 522602423659560729
+    second: Backgound hip
+  - first:
+      213: 4876758708323077321
+    second: Chest
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 284
+        width: 170
+        height: 158
+      alignment: 9
+      pivot: {x: 0.45750758, y: 0.031374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ab92d8b19ce080800000000000000
+      internalID: -9156783719357634271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background arm
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 372
+        width: 103
+        height: 70
+      alignment: 9
+      pivot: {x: 0.14232154, y: 0.8095873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84049b1fcf51dfc0800000000000000
+      internalID: -3471888494600387442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forground arm
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 108
+        height: 61
+      alignment: 9
+      pivot: {x: 0.122093484, y: 0.7842112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2788b61c0def30800000000000000
+      internalID: 4606351285594565438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forground foot
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 174
+        width: 46
+        height: 65
+      alignment: 9
+      pivot: {x: 0.31422508, y: 0.8438479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b635eedd0ec4000800000000000000
+      internalID: 21639342020848460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background foot
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 167
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: 0.33861947, y: 0.8722987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2f47d0c7e912b90800000000000000
+      internalID: -7268354067960368437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belt
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 214
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5610e8ba4971a320800000000000000
+      internalID: 2567466624414127706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forground hip
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 122
+        width: 36
+        height: 61
+      alignment: 9
+      pivot: {x: 0.47993386, y: 0.8197377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334228a3306e80430800000000000000
+      internalID: 3749499591326835763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backgound hip
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 116
+        width: 36
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5300988, y: 0.76797634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7cfca228a04700800000000000000
+      internalID: 522602423659560729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 70
+        width: 50
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.105980076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc3e0053abda340800000000000000
+      internalID: 4876758708323077321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

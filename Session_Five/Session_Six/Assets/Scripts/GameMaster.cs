@@ -12,9 +12,17 @@ public class GameMaster : MonoBehaviour
 
     public Text scoreDisplay; 
     public int score; 
-     
-    public void AddScore(int x){
+    
+    public float pitch = 1, timer = 0;
 
+    private void Update() {
+        if( timer > 0.5f){
+            pitch =1f; 
+        }
+
+    }
+    public void AddScore(int x){
+        timer = 0; 
         score += x; 
         scoreDisplay.text = score.ToString(); 
     }

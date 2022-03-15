@@ -67,14 +67,13 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         
-        if(other.gameObject.tag == "Coin"){
-            GM.GetComponent<GameMaster>().AddScore(1);
-            other.gameObject.AddComponent<Coin>(); 
+        if(other.gameObject.tag == "Coin")
+        {
+            //GM.GetComponent<GameMaster>().AddScore(1);
+            //other.gameObject.AddComponent<Coin>(); 
+            other.gameObject.GetComponent<Coin>().PlayerInteract(); 
         }
-        if(other.gameObject.tag == "Heart"){
-            GM.GetComponent<GameMaster>().AddScore(100);
-            other.gameObject.AddComponent<Coin>(); 
-        }
+
 
         grounded = true; 
         anim.SetInteger("Action", 0);
